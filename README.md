@@ -18,45 +18,6 @@ You also need the `requests` library. If you don't have it, install it via pip:
 ```bash
 pip install requests
 
-This is a great little utility script! It is simple, useful, and perfect for a lightweight GitHub repository.
-
-Here is a complete package to help you publish this.
-
-### 1. Repository Description
-
-*This goes in the "About" section on the right side of your GitHub repo page.*
-
-> **Short Description:** A lightweight Python script to search for public domain books using the Google Books API. Retrieves web reader URLs and direct download links (PDF/EPUB) for full-text volumes.
-
-> **Suggested Topics (Tags):** `python`, `google-books-api`, `public-domain`, `ebook-downloader`, `pdf`, `epub`, `automation`
-
----
-
-### 2. The README.md File
-
-*Create a file named `README.md` in your folder and paste the following content into it.*
-
-```markdown
-# Google Books Public Domain Search
-
-A simple Python utility that interacts with the Google Books API to find books with **full text availability**. It retrieves essential reading links, prioritizing direct downloads (PDF/EPUB) for public domain titles.
-
-## Features
-
-* **Full-Text Filter:** Automatically filters search results to only include volumes where the full text is available.
-* **Direct Download Links:** Extracts direct download links for **PDF** and **EPUB** formats if the book is DRM-free/Public Domain.
-* **Web Reader:** Provides the direct link to read the book in the browser via Google Books.
-* **Lightweight:** clear and simple code using the `requests` library.
-
-## Prerequisites
-
-You need **Python 3.x** installed on your system.
-
-You also need the `requests` library. If you don't have it, install it via pip:
-
-```bash
-pip install requests
-
 ```
 
 ## Usage
