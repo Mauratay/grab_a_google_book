@@ -64,17 +64,3 @@ This script uses the public Google Books API. No API key is strictly required fo
 Feel free to fork this repository and submit pull requests to add features like Command Line Arguments (CLI) or results exporting!
 
 ```
-
----
-
-### 3. A Quick Code Tip
-Before you upload, you might want to consider a tiny "Quality of Life" improvement. Currently, the user has to edit the code to change the search term.
-
-If you change the last line of your script to this, the user can type the search term directly in the terminal when running it:
-
-```python
-if __name__ == "__main__":
-    search_term = input("Enter book name to search: ")
-    get_public_books(search_term)
-
-```
