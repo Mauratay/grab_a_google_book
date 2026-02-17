@@ -62,5 +62,3 @@ This script uses the public Google Books API. No API key is strictly required fo
 ## Contributing
 
 Feel free to fork this repository and submit pull requests to add features like Command Line Arguments (CLI) or results exporting!
-
-```
